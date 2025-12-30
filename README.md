@@ -156,8 +156,16 @@ Social / Custom Links
 
 ---
 
-### Next Step
-**Day 3:** Tailwind CSS setup and base layout implementation.
+## Day 3 done
+
+### Frontend (UI/UX)
+
+- Installed and configured **Tailwind CSS v4**
+- Fixed PostCSS integration
+- Created **Navbar** component
+- Created **Home page** with hero section
+- Connected **Navbar** to Home page
+- Verified Tailwind utilities in browser
 
 ---
 
