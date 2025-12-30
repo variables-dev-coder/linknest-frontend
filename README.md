@@ -1,16 +1,172 @@
-# React + Vite
+# 📈 LinkNest – Daily Progress Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Day 1 – Project Setup & Database Integration ✅
+**Date:** 2025-12-29
 
-Currently, two official plugins are available:
+### Completed
+- Finalized project name: LinkNest
+- Created Spring Boot project using STS
+- Added Spring Boot DevTools
+- Installed and configured PostgreSQL
+- Created database: linknest_db
+- Connected Spring Boot with PostgreSQL
+- Application running successfully on port 8080
+- Installed Node.js & npm for frontend
+- Created React project with Vite
+- Frontend running successfully on port 5173
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tools & Tech
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Maven
+- Node.js & npm
+- React + Vite
+- VS Code & STS
 
-## React Compiler
+### Issues Faced
+- Datasource configuration error (Spring Boot)
+- PowerShell blocked npm scripts (Windows security)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### How Issues Were Solved
+- Configured `application.properties` for PostgreSQL
+- Set PowerShell Execution Policy to RemoteSigned
 
-## Expanding the ESLint configuration
+### Learnings
+- PostgreSQL default superuser is `postgres`
+- Spring Boot requires explicit datasource configuration
+- Frontend and backend are decoupled
+- Vite + React provides fast frontend scaffolding
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Day 2 – UI/UX Design & User Flow ✅
+**Date:** 2025-12-30
+
+### Objective
+Design the complete UI/UX structure of LinkNest before implementation, including user flow, page structure, and component breakdown.
+
+---
+
+### Product Overview
+LinkNest is a secure social media link dashboard that allows users to share all their important links using a single public URL.
+
+Example: https://linknest.app/u/aziz
+
+
+
+---
+
+### Target Users
+- Students
+- Developers
+- Content creators
+- Freelancers
+- Job seekers
+
+---
+
+### User Flow
+1. User visits LinkNest landing page
+2. Signs up / logs in securely
+3. Creates a personal profile
+4. Adds social and custom links
+5. Shares a single public profile URL
+
+---
+
+### Page Structure
+
+#### Public Pages
+| Page | Route | Description |
+|----|----|----|
+| Landing Page | `/` | Product introduction |
+| Public Profile | `/u/:username` | Shareable profile page |
+
+#### Authentication Pages
+| Page | Route |
+|----|----|
+| Login | `/login` |
+| Register | `/register` |
+
+#### Dashboard (Private)
+| Page | Route |
+|----|----|
+| Dashboard | `/dashboard` |
+| Manage Links | `/dashboard/links` |
+| Settings | `/dashboard/settings` |
+
+---
+
+### Component Breakdown
+
+#### Global Components
+- Navbar
+- Footer
+- Button
+- Input
+- Card
+
+#### Page Components
+- HeroSection
+- FeatureCard
+- ProfileHeader
+- LinkCard
+- SocialIcon
+
+---
+
+### UI Theme Decisions
+- **Primary Color:** Indigo / Purple
+- **Background:** White / Light Gray
+- **Font Style:** Inter / Poppins
+- **Design Goal:** Minimal, fast, mobile-first
+
+---
+
+### Wireframe (Text-Based)
+
+#### Landing Page
+
+[ Navbar | Login | Sign Up ]
+--------------------------------
+One Link. All Your Online Presence
+[ Get Started ]
+--------------------------------
+Features Section
+--------------------------------
+Footer
+
+
+#### Public Profile Page
+
+Profile Image
+Name & Bio
+----------------
+Social / Custom Links
+
+
+
+---
+
+### Tools & Tech (UI/UX Phase)
+- VS Code
+- React (Vite)
+- Tailwind CSS (planned)
+- Lucide Icons (planned)
+
+---
+
+### Next Step
+**Day 3:** Tailwind CSS setup and base layout implementation.
+
+---
+
+# 👤 Author
+**Aziz**  
+Founder & Full-Stack Developer – LinkNest
+
+
+
+
+ 
+
