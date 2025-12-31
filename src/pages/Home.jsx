@@ -1,23 +1,24 @@
 import Navbar from "../components/Navbar";
+import Button from "../components/Button"; // ADD THIS LINE
 
 function Home() {
   return (
     <>
       <Navbar />
 
-      <section className="h-[calc(100vh-64px)] flex flex-col items-center justify-center bg-gray-50 text-center px-4">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-4">
-          One Link for All Your Links
-        </h2>
+      <section className="min-h-[calc(100vh-64px)] flex flex-col justify-center bg-gray-50 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6">
+            One Link for All Your Links
+          </h2>
 
-        <p className="text-gray-600 max-w-xl mb-6">
-          Create your personal LinkNest and share all your social media,
-          projects, and important links in one place.
-        </p>
+          <p className="text-gray-600 text-lg md:text-xl mb-8">
+            Create your personal LinkNest and share all your social media,
+            projects, and important links in one place.
+          </p>
 
-        <button className="px-6 py-3 bg-indigo-600 text-white rounded-lg text-lg hover:bg-indigo-700">
-          Get Started Free
-        </button>
+          <Button text="Get Started Free" variant="primary" />
+        </div>
       </section>
     </>
   );
