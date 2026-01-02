@@ -169,6 +169,58 @@ Social / Custom Links
 
 ---
 
+## Day 4 Progress – Frontend UI & Tailwind Fix
+
+### 🔹 Summary
+Day 4 focused on **frontend improvements and Tailwind setup**:
+
+1. Fixed **Tailwind v4 + PostCSS** configuration:
+   - Installed `@tailwindcss/postcss`
+   - Updated `postcss.config.js`
+   - Cleaned `index.css` for Tailwind base, components, and utilities
+2. Built a **responsive Navbar** component:
+   - Logo on left
+   - Login / Sign Up buttons visible on desktop
+   - Ready for mobile hamburger menu next
+3. Created a **reusable Button component**:
+   - Small (default) buttons for navbar
+   - Large (primary) buttons for landing page
+4. Refined **Home page layout**:
+   - Big, centered headline
+   - Proper paragraph spacing
+   - Large **Get Started Free** button
+   - Looks professional on both desktop and mobile
+
+---
+
+### 🔹 Tech Stack
+- Frontend: React + Vite
+- Styling: Tailwind CSS v4
+- State management: React useState (basic for buttons)
+- Deployment ready: Vite dev server
+
+---
+
+### 🔹 Next Steps (Day 5 Preview)
+- Add **mobile hamburger menu**
+- Hide desktop buttons on mobile
+- Add routing to Login / Sign Up pages
+- Update README with screenshots
+
+---
+
+### 🔹 Screenshot Preview
+> (Add screenshots after implementing Day 4 UI)
+
+---
+
+
+
+
+
+
+----
+
 # 👤 Author
 **Aziz**  
 Founder & Full-Stack Developer – LinkNest
